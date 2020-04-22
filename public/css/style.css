@@ -1,0 +1,80 @@
+@font-face{
+    font-family: "Tahu";
+    src:url("../fonts/Tahu.ttf") format("truetype");
+}
+
+.welcome{
+    font-size: 100px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+html,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 100vh;
+    }
+}
+
+.view{
+    margin-top: 25%;
+}
+@media (max-width: 740px) {
+    .view{
+        margin-top: 50%;
+    }
+    .welcome{
+        font-size: 50px;
+    }
+}
+h1 {
+    letter-spacing: 8px;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+footer{
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+abbr{
+    color: red;
+}
+
+label abbr {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+}
